@@ -1,0 +1,33 @@
+.logo-img {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0 2rem 0;
+}
+
+
+.header {
+    margin-bottom: 100px;
+    display: flex;
+    justify-items: auto;
+   
+}
+.paragraph{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    gap: 20px;
+   
+}
+h2{
+    display: flex;
+    margin: auto;
+    font-size: 300;
+    font-weight: 300;
+    padding: auto;
+    text-align: center;
+    
+}
+#besplatno{
+    font-weight: bold
+}
+

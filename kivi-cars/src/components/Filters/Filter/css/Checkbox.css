@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.checkbox-div{
+    padding: 0.5em;
+    text-align: center;
+}
+
+.checkbox-title{
+    margin-right: 0.5em
+}
+
+.checkbox{
+    width: 20px;
+    height: 20px;
+}
+
+@media only screen and (min-width: 541px){
+    .checkbox-div{
+        font-size: 1.5em;
+    }
+}

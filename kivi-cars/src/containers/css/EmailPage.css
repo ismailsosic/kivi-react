@@ -1,0 +1,78 @@
+.h2 {
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 300;
+    font-weight: 300;
+}
+
+
+.h3 {
+    margin-top: 2rem;
+    text-align: center;
+    padding: 1rem;
+    font-size: 300;
+    font-weight: 300;
+}
+
+.h3-2 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    padding: 1rem;
+    font-size: 300;
+    font-weight: 300;
+}
+
+.buttons-container {
+    margin-top: 2rem;
+    display: flex;
+    justify-content:center;
+    gap: 20px;
+}
+
+#email {
+    width: 80%;
+    font-size: 15px;
+    padding: 20px;
+    margin: 10px;
+    border: hidden;
+    border-bottom: 1px solid lightslategrey;
+}
+#email:active {
+    width: 80%;
+    font-size: 15px;
+    padding: 20px;
+    margin: 10px;
+    border: hidden;
+    border-bottom: 1px solid lightslategrey;
+}
+
+#confirmEmail {
+    width: 80%;
+    font-size: 15px;
+    padding: 20px ;
+    margin: 10px;
+    border: hidden;
+    border-bottom: 1px solid lightslategrey;
+}
+
+.form {
+    margin-top: 1rem;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.email-div{
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    
+}
+
+.info{
+    display: flex;
+}

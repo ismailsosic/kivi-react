@@ -1,0 +1,64 @@
+.paragh-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.first-paragh {
+    padding-top: 20px;
+    margin-top: 50px;
+}
+
+.second-paragh{
+    margin-bottom: 60px;
+    padding: 20px;
+}
+
+.third-paragh{
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.h1 {
+    text-align: center;
+}
+
+.h2 {
+    text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+    .h2 {
+        font-size: 20px;}
+  }
+
+
+@media screen and (max-width: 600px) {
+    .h2 {
+        font-size: 17px;}
+  }
+
+
+@media screen and (max-width: 300px) {
+    .h2 {
+        font-size: 15px;}
+  }
+
+  
+@media screen and (max-width: 800px) {
+    .h1 {
+        font-size: 27px;}
+  }
+
+
+@media screen and (max-width: 600px) {
+    .h1 {
+        font-size: 22px;}
+  }
+
+
+@media screen and (max-width: 300px) {
+    .h1 {
+        font-size: 18px;}
+  }

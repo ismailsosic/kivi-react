@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.doubleFilter-component{
+    padding: 0.5em;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+label{
+    width: 100%;
+
+}
+
+.double-filters{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.filter{
+    padding: 0.5em;
+}
+
+.filter input{
+    width: 6em;
+    height: 2em;
+    text-align: center;
+    border: 2px solid #02adba;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-left: 0.5em;
+}
+
+@media only screen and (min-width: 541px) {
+    .doubleFilter-component{
+        font-size: 24px;
+    }
+
+    .filter input{
+        font-size: 20px;
+    }
+}
